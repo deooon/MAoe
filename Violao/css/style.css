@@ -1,0 +1,273 @@
+body {
+	margin: 0;
+
+}
+
+#menu {
+	position: absolute;
+	z-index: 5;
+	background-color: black;
+	height: 80px;
+	width: 100%;
+	min-width: 780px;
+}
+#menu .logo {
+	position: absolute;
+	margin-top: 18px;
+    margin-left: 40px;
+}
+
+#menu ul {
+	position: absolute;
+    margin-left: 100px;
+    display: inline-block;
+    list-style: none;
+    margin-top: 30px;
+}
+
+#menu ul li {
+	display: inline-block;
+	margin-right: 64px;
+}
+
+#menu ul li a {
+    font-family: sans-serif;
+    font-size: 18px;
+    padding: 6px 6px;
+    color: #ffffff;
+    text-decoration: none;
+}
+#menu .btn-menu {
+	position: absolute;
+	margin-top: 5px;
+	height: 34px;
+	left: 1300px;
+	top: 18.09px;
+}
+
+#menu .btn-menu a button {
+	width: 200px;
+	height: 34px;
+	background-color: #ffffff;
+	font-weight: bold;
+    font-family: Sans-serif;
+    font-size: 14px;
+    border-radius: 25px;
+    letter-spacing: 1px;
+}
+
+hr {
+	color: red;
+}
+
+/** ==============FIM MENU===== **/
+
+.pag-inicial {
+	position: absolute;
+	width: 100%;
+	height: 1100px;
+	background-image: url(../imagens/back.png);
+}
+
+.pag-inicial .box-texto {
+	position: absolute;
+	width: 870px;
+	height: 322px;
+	margin-left: 52.21px;
+	margin-top: 92.09px;
+}
+
+.pag-inicial .box-texto {
+	color: #ffffff;
+	width: 865px;
+	height: 318px;
+	
+	font-family: unbuntu;
+	font-size: 80px;
+	line-height: 92px;
+}
+
+.pag-inicial .box-texto h1 {
+	width: 280px;
+	height: 77px;
+	margin-left: 300px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+
+	font-family: sans-serif;
+	font-size: 72px;
+	line-height: 83px;
+}
+
+.pag-inicial .box-texto h2 {
+	width: 865px;
+    height: 90px;
+    margin: 0px;
+    
+    font-family: Ubuntu;
+    font-size: 72px;
+    line-height: 83px;
+    
+    color: #FFFFFF;
+}
+
+.pag-inicial .box-texto h3 {
+	width: 562.42px;
+	height: 45.89px;
+	margin-left: 207px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+
+	font-family: Ubuntu;
+	font-size: 48px;
+	line-height: 55px;
+
+	color: #FFFFFF;
+}
+
+.pag-inicial .box-texto .btn-action {
+	width: 340px;
+	height: 70px;
+	background-color: #ffffff;
+	
+	margin-left: 250px;
+	margin-top: 20px;
+
+	font-weight: bold;
+    font-family: Sans-serif;
+    font-size: 24px;
+    line-height: 28px;
+    
+    border-radius: 50px;
+    letter-spacing: 1px;
+}
+
+.pag-inicial .box-informacao {
+	width: 702.4px;
+	height: 523.35px;
+	margin-left: 150px;
+	margin-top: 460px;
+}
+
+.pag-inicial .box-informacao h4 {
+	width: 686px;
+	height: 130px;
+	margin-left: 22px;
+	margin-top: 463px;
+	margin-bottom: 0px;
+
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 64px;
+	line-height: 74px;
+
+	color: #FFFFFF;
+}
+
+.pag-inicial .box-informacao .list-musicas {
+	width: 520px;
+	height: 200px;
+	margin-left: 100px;
+	margin-top: 25px;
+
+	list-style: none;
+}
+
+.pag-inicial .box-informacao .list-musicas li {
+	font-family: Ubuntu;
+	font-weight: 500;
+	font-size: 36px;
+	line-height: 41px;
+
+	color: #FFFFFF;
+}
+
+.pag-inicial .box-informacao p {
+	width: 588.98px;
+	height: 36.02px;
+	margin-left: 100px;
+	margin-top: 20px;
+
+	font-family: Ubuntu;
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 41px;
+
+	color: #FFFFFF;
+}
+
+.pag-inicial .box-informacao .btn-info {
+	width: 638px;
+	height: 84px;
+	background-color: #ffffff;
+	
+	margin-left: 20px;
+	margin-top: 20px;
+
+	font-weight: bold;
+    font-family: Sans-serif;
+    font-size: 24px;
+    line-height: 28px;
+    
+    border-radius: 50px;
+    letter-spacing: 1px;
+}
+
+/** ==============INICIO SOBRE======== **/
+
+#sobre {
+	position: absolute;
+	width: 1415.97px;
+	height: 769.92px;
+	margin-top: 1100px;
+}
+
+#sobre h5 {
+	position: absolute;
+	z-index: 1;
+	height: 80px;
+	margin-left: 200px;
+	margin-top: 10px;
+
+	font-family: Roboto Mono;
+	font-weight: bold;
+	font-size: 90px;
+	line-height: 105px;
+}
+
+#sobre .foto-dani {
+	position: absolute;
+	width: 814px;
+	height: 677px;
+	
+	margin-top: 130px;
+}
+
+#sobre .foto-dani .dani {
+	width: 493.37px;
+    height: 676.7px;
+    margin-left: 950px;
+    margin-top: -110px;
+    position: absolute;
+}
+
+#sobre .foto-dani .fundo-dani {
+	width: 490px;
+	height: 670px;
+	position: absolute;
+	z-index: 1;
+}
+
+#sobre .texto-sobre {
+	position: absolute;
+    width: 560.91px;
+    margin-top: 150px;
+    height: 577.06px;
+    margin-left: 200px;
+
+    font-size: 34px;
+}
+
+#sobre .texto-sobre .whats {
+	margin-top: 180px;
+}
